@@ -8,7 +8,7 @@ https://eyalzk.github.io/
 from keras.callbacks import Callback
 import keras.backend as K
 
-from dl_bot import DLBot
+from .dl_bot import DLBot
 
 
 class TelegramBotCallback(Callback):
